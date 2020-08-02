@@ -1,0 +1,22 @@
+{
+  "name": "dom-bot-jp",
+  "version": "1.0.0",
+  "description": "This expands DomBot in discord!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojamozya/dom-bot-jp.git"
+  },
+  "author": "Mojamozya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojamozya/dom-bot-jp/issues"
+  },
+  "homepage": "https://github.com/mojamozya/dom-bot-jp#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
