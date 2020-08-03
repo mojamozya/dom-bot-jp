@@ -17,14 +17,9 @@ client.on('message', async message => {
         }
 
         sleep(10 * 1000, function () {
-            const kMessage = await message.channel.send('!kingdom -k ' + cardsString);
-            kMessage.delete();
+            message.channel.send('!kingdom -k ' + cardsString);
             message.delete();
         })
-
-        //for (const sM of sentMessages) {
-        //    sM.delete();
-        //}
     }
 });
 client.login(process.env.BOT_TOKEN);
