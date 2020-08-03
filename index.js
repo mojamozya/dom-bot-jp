@@ -1,7 +1,6 @@
 //ログイン処理
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = 'NzM5NTEwMjUzNzEyMDQ4MjA4.Xybglw.Vrh6k11sT4DsPxjogGCZE6IFWAw';
 client.on('ready', () => {
     console.log('ready...');
 });
@@ -28,7 +27,7 @@ client.on('message', async message => {
         //}
     }
 });
-client.login(token);
+client.login(process.env.BOT_TOKEN);
 
 function sleep(waitSec, callback) {
     setTimeout(callback, waitSec);
