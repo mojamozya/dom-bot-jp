@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mojamozya/dom-bot-jp#readme",
   "dependencies": {
-    "discord.js": "^12.2.0"
+    "discord.js": "^12.2.0",
+    "heroku": "^7.42.6"
   }
 }
